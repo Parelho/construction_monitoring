@@ -1,4 +1,4 @@
 runs
 venv
-construction
+construction*
 *.pt
