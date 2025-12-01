@@ -1,7 +1,11 @@
 from ultralytics import YOLO
 
-# Load pretrained model
-model = YOLO("yolo11n.pt")
+# Load pretrained YOLO11n
+model = YOLO("yolo11l.pt")
 
-# Train the model on Construction-PPE dataset
-model.train(data="construction-ppe.yaml", epochs=100, imgsz=640)
+# Train with split dataset
+model.train(
+    data="/home/vinicius/Git/construction_monitoring/pictor.yaml",
+    epochs=100,
+    imgsz=640
+)

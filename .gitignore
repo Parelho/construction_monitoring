@@ -3,3 +3,11 @@ venv
 construction*
 *.pt
 *.json
+concrete
+Dataset_for_Mendely
+pictor-yolo-20251125T041357Z-1-001
+window_door
+window-detection-yolo.v4i.yolov11
+*.png
+*.jpg
+*.yaml
